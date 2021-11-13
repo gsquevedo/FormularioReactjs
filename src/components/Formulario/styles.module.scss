@@ -1,0 +1,78 @@
+.messageListWrapper{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .messageList {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        flex: 1;
+
+        .loginForm {
+            background: black;
+            border-radius: 10px;
+            padding: 20px;
+            width: 450px;
+            height: 380px;
+            margin-bottom: 25%;
+
+            h3 {
+                margin-bottom: 15px;
+            }
+
+            form {
+                text-align: left;
+            }
+              
+            label {
+                display: block;
+                text-transform: uppercase;
+            }
+              
+            input {
+                display: block;
+                margin: 5px 0 10px;
+                padding: 10px;
+                border: 1px solid #c0c0c0;
+                border-radius: 5px;
+                font-size: 16px;
+                line-height: 25px;
+                width: 100%;
+            }
+
+            .criar{
+                background: #797877;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding: 0 40px;
+                height: 56px;
+                width: 100%;
+                color: #09090a;
+                font-size: 14px;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-decoration: none;
+                border-radius: 10px;
+        
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        
+        
+                &:hover{
+                    filter: brightness(0.9);
+                }
+            }
+            .logar{
+                text-transform: uppercase;
+                margin: 90px;
+            }
+        }
+    }
+}
+
