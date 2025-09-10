@@ -35,22 +35,19 @@
 - Estilização simples com CSS.
 
 ## 🚀 Como Rodar o Projeto
+
 1. Clone o repositório:
- ``bash
- git clone https://github.com/gsquevedo/FormularioReactjs.git
- cd FormularioReactjs
-
-2. Instale as dependências:
-  ``bash
-  yarn
-
-3. Execute o projeto:
-  ``bash
-   yarn dev
+   ```bash
+   git clone https://github.com/SEU-USUARIO/FormularioReactjs.git
+2. Acesse a pasta do projeto:
+   ```bash
+    cd FormularioReactjs
+3. Instale as dependências:
+   ```bash
+    yarn install
+4. Rode o servidor de desenvolvimento:
+   ```bash
+    yarn dev
 
 ## Protótipo da Tela
 ![img](./img/t1.png)
-
-Copiar código
-yarn dev
-Abra o navegador e acesse http://localhost:3000 para visualizar a aplicação.
